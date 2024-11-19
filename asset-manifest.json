@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/West-Africa/static/css/main.485a96be.css",
+    "main.js": "/West-Africa/static/js/main.23230c0d.js",
+    "static/media/video.mp4": "/West-Africa/static/media/video.88b9237e5498ac0e4b99.mp4",
+    "static/media/chef.png": "/West-Africa/static/media/chef.400b6a733d425b0d2455.png",
+    "static/media/clit.png": "/West-Africa/static/media/clit.cd5756fe41cdbc787d57.png",
+    "static/media/cliente-sac.png": "/West-Africa/static/media/cliente-sac.a1c7ddc90f35c5fa8cd7.png",
+    "static/media/plats.png": "/West-Africa/static/media/plats.94a529b5c62715231356.png",
+    "static/media/food5.jpeg": "/West-Africa/static/media/food5.b797624cd7b3342d5477.jpeg",
+    "static/media/food4.jpeg": "/West-Africa/static/media/food4.c5695779d860b4ff39c1.jpeg",
+    "static/media/food2.jpeg": "/West-Africa/static/media/food2.313d1449f66fadd7c572.jpeg",
+    "static/media/im5.png": "/West-Africa/static/media/im5.ea1049517375133e986f.png",
+    "static/media/cap.png": "/West-Africa/static/media/cap.54b1870dfc9b5415a3cc.png",
+    "static/media/capt.png": "/West-Africa/static/media/capt.67f5e43bf6b45cbe8e3f.png",
+    "static/media/menu.jpg": "/West-Africa/static/media/menu.5d3d9934857fd66830d1.jpg",
+    "static/media/im2.jpeg": "/West-Africa/static/media/im2.be8f8014ee883bfc1317.jpeg",
+    "static/media/new1.jpeg": "/West-Africa/static/media/new1.c3ea20a58d41942553ca.jpeg",
+    "static/media/new2.jpeg": "/West-Africa/static/media/new2.9bba434741e025b326d9.jpeg",
+    "static/media/food1.jpeg": "/West-Africa/static/media/food1.4d461e77e9f96ed7b99c.jpeg",
+    "static/media/food3.jpeg": "/West-Africa/static/media/food3.ba3396cec196226cf210.jpeg",
+    "static/media/logo.jpg": "/West-Africa/static/media/logo.cabab6ef079591881474.jpg",
+    "index.html": "/West-Africa/index.html",
+    "static/media/spoon.svg": "/West-Africa/static/media/spoon.e7ad78a0cb2938e5640b307135a9719c.svg",
+    "main.485a96be.css.map": "/West-Africa/static/css/main.485a96be.css.map",
+    "main.23230c0d.js.map": "/West-Africa/static/js/main.23230c0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.485a96be.css",
+    "static/js/main.23230c0d.js"
+  ]
+}
