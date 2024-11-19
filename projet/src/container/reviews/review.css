@@ -1,0 +1,87 @@
+.review {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin: 0;
+}
+
+.app__reviews-title {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.review-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 3rem;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.review-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.5rem;
+    color: var(--color-white);
+}
+
+.review-card p {
+    margin: 5px 0;
+    margin-bottom: 1.5rem;
+}
+
+.rating {
+    color: gold; /* Adjust color for star ratings */
+}
+
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.star-icon {
+    color: var(--color-golden);
+    font-size: 1.5rem;
+}
+
+.google-icon {
+    color: var(--color-golden);
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+    .review-card {
+        width: 100%;
+    }
+    .app__reviews-title{
+        font-size: 1.5rem;
+    }
+    .review-card h2 {
+        font-size: 1.2rem;
+    }
+    .review-card p {
+        font-size: 0.9rem;
+    }
+    .star-icon {
+        font-size: 1.2rem;
+    }
+    .google-icon {
+        font-size: 1.2rem;
+    }
+    .review-list {
+        flex-direction: column;
+    }
+    .review-card {
+        margin: 10px;
+    }
+    .review-card:nth-child(5),
+    .review-card:nth-child(6) {
+        display: none;
+    }
+}

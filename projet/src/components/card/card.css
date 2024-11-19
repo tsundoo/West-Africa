@@ -1,0 +1,67 @@
+.menu {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    color: #DCCA87;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .menu-section {
+    margin-bottom: 2rem;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-section h2 {
+    color: #DCCA87;
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  
+  .menu-section ul {
+    list-style-type: none;
+  }
+  
+  .menu-section li {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .menu-section li:hover {
+    color: var(--color-golden);
+  }
+
+
+  @media screen and (max-width: 1150px) {
+    .menu {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .menu {
+        width: 100%;
+    }
+
+    .menu-section {
+        margin-bottom: 40px;
+    }
+
+    .menu-section h2 {
+        font-size: 20px;
+    }
+
+    .menu-section li {
+        font-size: 12px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+  }
