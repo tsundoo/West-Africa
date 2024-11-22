@@ -1,7 +1,22 @@
 {
     "version": 2,
-    "framework": "create-react-app",
-    "buildCommand": "cd Projet && npm install && npm run build",
-    "outputDirectory": "Projet/build",
-    "installCommand": "cd Projet && npm install"
-  }
+    "builds": [
+        {
+            "src": "Projet/package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "build",
+                "zeroConfig": true
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
+        }
+    ],
+    "buildCommand": "cd Projet && CI=false npm run build",
+    "installCommand": "cd Projet && npm install",
+    "outputDirectory": "Projet/build"
+}
