@@ -1,12 +1,13 @@
 {
     "version": 2,
+    "root": "./Projet",
+    "framework": "create-react-app",
     "builds": [
       {
         "src": "package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "build",
-          "framework": "create-react-app"
+          "distDir": "build"
         }
       }
     ],
